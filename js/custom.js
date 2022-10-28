@@ -1,11 +1,5 @@
 (function($) {
 
-  // Init Wow
-  wow = new WOW({
-    animateClass: 'animated',
-    offset: 100
-  });
-  wow.init();
 
   $(".navbar-collapse a").on('click', function() {
     $(".navbar-collapse.collapse").removeClass('in');
